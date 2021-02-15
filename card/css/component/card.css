@@ -1,0 +1,40 @@
+.card__header,  
+.card__content {
+  background-color: white;
+}
+
+.card {
+  border-radius: 8px;
+  border: none;
+}
+
+.card__content {
+  display: grid;
+  grid-template-areas: 
+    "card-title card-price" 
+    "card-short-description card-price";
+  min-height: 5rem;
+  padding: 1rem;
+}
+
+.card__title {
+  grid-area: card-title ;
+  color: rgb(34, 34, 34);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-align: top;
+}
+
+.card__shortdesc {
+  grid-area: card-short-description;
+  color: rgb(85, 85, 85);
+  font-size: 0.8rem;
+}
+
+.card__price {
+  grid-area: card-price;
+  color: rgb(3, 42, 141);
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-align: top;
+}
