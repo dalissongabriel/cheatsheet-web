@@ -1,0 +1,14 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.container--centralized {
+  justify-content: center;
+  align-items: center;
+} 
+
+.container--bg-gray {
+  background-color: #eaebec;
+}
