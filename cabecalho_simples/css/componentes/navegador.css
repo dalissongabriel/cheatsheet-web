@@ -1,0 +1,18 @@
+.navegador {
+  display: flex;
+  justify-content: space-between;
+}
+.navegador__item {
+  padding: 0.4rem;
+  text-align: center;
+}
+.navegador__link {
+  color: #333;
+}
+.navegador__link--ativo {
+  color: blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
+.navegador__link:hover {
+  color: blueviolet;
+}

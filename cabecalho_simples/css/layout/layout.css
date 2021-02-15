@@ -1,0 +1,23 @@
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+
+}
+
+.flex--just-cont-sb {
+  display: flex;
+}
+
+.flex--align-items-c {
+  align-items: center;
+}
+
+.flex--just-cont-sb {
+  justify-content: space-between;
+}
