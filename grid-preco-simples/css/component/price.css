@@ -1,0 +1,95 @@
+.price-grid {
+  display: grid;
+  grid-template-areas:
+    "join join"
+    "price whyus";
+  position: relative;
+  margin: 20px auto;
+  max-width: 600px;
+  -webkit-box-shadow: 1px 1px 20px -1px rgba(192,192,192,0.76); 
+  box-shadow: 1px 1px 20px -1px rgba(192,192,192,0.76);
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.price__title {
+  color: #3B9E9B;
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.price__title--color-white {
+  color: White;
+}
+
+.price__subtitle {
+  color: #aacc209c;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 0.7rem;
+}
+
+.price__description {
+  color: rgb(153, 153, 153);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.price__price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.price__price p:first-child {
+  font-size: 1.8em;
+  margin-right: 0.5rem;
+}
+
+.price__price p:nth-child(2) {
+  color: rgb(201, 201, 201);
+}
+
+
+.price__price--color-white > p {
+  color: white;
+}
+
+.price__description--color-white {
+  color: white;
+}
+
+.price__description--color-gray {
+  color: rgb(235, 235, 235);
+}
+
+
+
+.section {
+  padding: 3rem;
+}
+
+.join{
+  grid-area: join;
+  border-radius: 0.4rem 0.4rem 0 0;
+  background-color: rgb(253, 253, 253);
+}
+
+
+
+.price {
+  grid-area: price;
+  border-radius: 0 0 0 0.4rem;
+  background-color: #2BB3B1;
+}
+
+.whyus {
+  grid-area: whyus;
+  border-radius: 0 0 0.4rem 0;
+  background-color: #49c0bec4;
+}
